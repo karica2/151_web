@@ -1,4 +1,9 @@
 h1 { 
-    background-color: rgb(167, 190, 211);
-    color:rgb(73, 35, 63)
+    color:rgb(18, 61, 141)
+    
+}
+
+body { 
+    font-family: Arial;
+    background: rgb(148, 205, 207);
 }
