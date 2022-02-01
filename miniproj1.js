@@ -47,7 +47,7 @@ square(centerX - .5*squareSize, centerY-.5*squareSize, squareSize)
 function fillSides() { 
 
     // change this variable to control the margin size
-    marginPercent = .05
+    marginPercent = .1
 
     offsetXL = windowWidth * (marginPercent)
     offsetXR = windowWidth * (1-marginPercent)
