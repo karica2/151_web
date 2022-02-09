@@ -29,7 +29,9 @@ function setup() {
   // slider.position(10, 10)
   // slider.style('width', '80px')
   // x = color(230, 85, 85)
-  
+
+  var welcomeMessage = " Welcome to my art 151 Project 1! \nTitle: \"Breathing Sky\". Meant to mimic the sky at unimaginable heights.\nTo interact with it, move the mouse in any of the four quadrants to change the color of the scene and lighting. Each one should have a different look and feel. Enjoy!"
+  window.alert(welcomeMessage)
 }
 
 // draw the artifact
