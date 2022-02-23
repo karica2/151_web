@@ -1,0 +1,39 @@
+
+
+body { 
+    color: white;
+    background-color: black;
+    font-family: 'Arial';
+    margin: 30vh;
+    /* column-count: 4; */
+    /* column-gap: 40px; */
+    /* grid-template-rows: auto; */
+}
+
+.piccontainer {
+    grid-column-start: 3; 
+    grid-column-end: 4; 
+    width: 50vh;
+    height: 50vh;
+    grid-row: 2;
+}
+
+/* .flavortext { 
+    grid-column-start: 1;
+    grid-column-end: 2; 
+    grid-row: 2;
+} */
+
+a { 
+    color:crimson;
+    text-decoration: none;
+}
+
+h2 { 
+    grid-row: 1;
+    /* grid-row-end: 2; */
+}
+
+/* .next { 
+    grid-row: 6;
+} */
