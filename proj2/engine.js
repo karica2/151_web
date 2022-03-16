@@ -106,7 +106,9 @@ antKingReward = {
         currentGameState = "outsideStore"
     }, 
     choice2Label : "Take their bounty and continue to the store",
-    choice2: function() { 
+    choice2: function() {
+        money += .5
+        document.getElementById("money").innerText = " [$] You have: $" + money 
         currentGameState = "outsideStore"
     }
 }
