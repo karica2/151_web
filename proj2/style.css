@@ -1,0 +1,161 @@
+
+:root {
+    --border-color: rgb(168, 116, 5);
+}
+
+@font-face {
+    font-family: ter;
+    src: url("font/clacon2.ttf") format("truetype")
+  }
+
+body {
+    background-color: #120439;
+    height: 100%;
+    font-family: 'tradegothiclt-bold', sans-serif;
+    color:aliceblue;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    overflow:hidden;
+  }
+  
+  h1 {
+    font-size: 5em;
+    color: white;
+    text-transform: uppercase;
+  }
+
+
+.game { 
+    margin: auto;
+
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+
+  }
+
+.art { 
+    background-color: #6745c5;
+    height: 60vh;
+    width: 100%;
+    border-color: var(--border-color);
+    border-style: solid;
+    border-width: 3px;
+}
+
+.terminal { 
+    background-color:black;
+    height: 30vh;
+    width: 100%;
+    border-color: var(--border-color);
+    border-style: solid;
+    border-width: 2px;
+    border-bottom-width: 1px;
+    color:antiquewhite;
+    /* background-image: radial-gradient(
+        rgba(1, 23, 85, 0.75), black 60%
+      ); */
+    font-size: x-large;
+    letter-spacing: 2px;
+    line-height: 1.2em;
+    font-family: ter;
+    overflow: scroll;
+    
+}
+
+.choices { 
+    background-color:rgb(0, 0, 0);
+    height: 30vh;
+    width: 100%;
+    border-color: var(--border-color);
+    border-style: solid;
+    border-width: 2px;
+    border-top-width: 1px;
+}
+
+.highlight { 
+    color:#ff0000;
+}
+
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fff;
+  }
+}
+
+caret-underscore > span {
+  animation: blink 1s step-end infinite;
+  border-bottom: 2px solid white;
+}
+
+#choice { 
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: antiquewhite;
+  font-family: ter;
+  font-size: x-large;
+  letter-spacing: 2px;
+  border: black;
+  outline: none;
+
+
+
+}
+
+.form { 
+
+  height: 100%;
+
+}
+
+button {
+  display: block;
+  background-color: black;
+  color: antiquewhite;
+  font-size: x-large;
+  letter-spacing: 2px;
+  border: black;
+  font-family: ter;
+  width: 97%;
+  text-align: left;
+  height: 30%;
+  margin-left: 3%;
+}
+
+button:hover { 
+  background-color: gold;
+  color: #120439;
+}
+
+::-webkit-scrollbar {
+  background: #000000;
+}
+
+.terminal_money { 
+  background-color:black;
+
+  color:antiquewhite;
+
+  font-size: x-large;
+  letter-spacing: 2px;
+  line-height: 1.2em;
+  font-family: ter;
+
+  
+}
