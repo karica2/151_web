@@ -367,7 +367,7 @@ function applyGameState(choiceNum) {
     }
     document.getElementById("money").innerText = "[$] You have: $" + money
     current = gameStates[currentGameState]
-    setIntervalX(setTerm, 5, current.prompt.length, current.prompt)
+    setIntervalX(setTerm, 30, current.prompt.length, current.prompt)
     
     // document.getElementById("choice1").innerText = "[1] >  " + current.choice1Label
     // document.getElementById("choice2").innerText = "[2] >  " + current.choice2Label   
