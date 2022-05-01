@@ -121,8 +121,8 @@ function getRandomUser() {
         dataType: 'json',
         success: function(data) {
           console.log(data["results"][0]);
-          document.getElementById("name").innerText = "[NAME]:   " + data["results"][0]["name"]["first"] + " " + data["results"][0]["name"]["last"]
-          document.getElementById("age").innerText = "[AGE]:   " + data["results"][0]["dob"]["age"]
+          document.getElementById("name").innerText = "NAME:   " + data["results"][0]["name"]["first"] + " " + data["results"][0]["name"]["last"]
+          document.getElementById("age").innerText = "AGE:   " + data["results"][0]["dob"]["age"]
         }
       });
 
@@ -131,7 +131,7 @@ function getRandomUser() {
         dataType: 'json',
         success: function(data) {
           console.log(data[0]);
-          document.getElementById("word").innerText = "[ATTRIBUTE]:   " + data[0]
+          document.getElementById("word").innerText = "ATTRIBUTE:   " + data[0]
         }
       });
 
@@ -173,12 +173,17 @@ quotes = [
     "Such a fan of Jared Leto!",
     "Who here agrees with me?",
     "h̷̘̅ȩ̶̓l̷͎͠p̴̪̌ ̶̨̾m̴̙̊ḛ̷͠ ̶̘̔",
-    "Glue on the roach, bro! Aw yeah!"
+    "Glue on the roach, bro! Aw yeah!",
+    "If only I had a little more time.",
+    "AAAUUUGGH",
+    "I think I'll use my credit card!",
+    "Whole foods",
+    "Let's use twitter!"
 ]
 
 function getRandomQuote() { 
     quote = quotes[Math.floor(Math.random()*quotes.length)]
-    document.getElementById("quote").innerText = quote
+    document.getElementById("quote").innerText = `\"${quote}\"`
 }
 
 function parseNote(note) { 
