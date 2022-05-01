@@ -1,0 +1,10 @@
+body { 
+    background-color: rgb(180, 186, 244);
+}
+
+h1 { 
+    margin: 20%;
+    color: rgb(130, 10, 1);
+    font-family: Arial;
+    font-style: oblique;
+}

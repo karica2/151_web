@@ -1,0 +1,27 @@
+body { 
+    background-color: rgb(34, 43, 121);
+}
+
+h1 { 
+    /* margin: 5%; */
+    /* color: rgb(130, 10, 1); */
+    font-family: Arial;
+    font-style: oblique;
+    margin-left: 10%;
+}
+img { 
+    width: 100%;
+}
+
+.botpanel { 
+    background-color: rgb(216, 97, 61);
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 20%;
+    width: 25%;
+    /* height: 60%; */
+    /* height: 70%; */
+    /* width: fit-content; */
+    /* opacity: 50%; */
+}
+
